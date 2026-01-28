@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional - Desarrollador Web">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Cambiar tema">
+                <span class="sun">☀️</span>
+                <span class="moon">🌙</span>
+            </button>
+            <button class="menu-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Hola, soy <span class="highlight">Adrián Martín Jiménez</span></h1>
+                <p class="subtitle fade-in">Desarrollador Web | Friki de la tecnología</p>
+                <p class="description fade-in">
+                    Apasionado de la tecnología y el diseño web, juntos crearemos experiencias digitales, ven con tu idea y la haremos realidad
+                </p>
+                <div class="hero-buttons fade-in">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador fullstack apasionado por crear proyectos e ideas que se me pasen por la cabeza.
+                        Me especializo en full stack y disfruto creando y transformando ideas en código limpio y eficiente.
+                    </p>
+                    <p>
+                        Con experiencia en múltiples tecnologías modernas, me enfoco en 
+                        crear sitios web responsive, accesibles y optimizados para ofrecer 
+                        la mejor experiencia de usuario posible.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Los proyectos se cargarán dinámicamente desde projects.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid" id="skills-container">
+                <!-- Las habilidades se cargarán dinámicamente desde skills.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    ¿Tienes un proyecto en mente? Me encantaría escuchar tus ideas.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:tu@email.com" class="contact-link">
+                        <span class="icon">📧</span>
+                        <span>tu@email.com</span>
+                    </a>
+                    <a href="https://github.com/tuusuario" target="_blank" class="contact-link">
+                        <span class="icon">💼</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank" class="contact-link">
+                        <span class="icon">🔗</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tu Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/projects.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
