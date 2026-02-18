@@ -1,42 +1,42 @@
 // Datos de habilidades
 const skills = [
     {
-        name: "HTML5",
+        name: "Java",
         level: 95,
         icon: "🌐"
     },
     {
-        name: "CSS3",
-        level: 90,
+        name: "JSP",
+        level: 95,
         icon: "🎨"
     },
     {
-        name: "JavaScript",
-        level: 85,
+        name: "Struts",
+        level: 95,
         icon: "⚡"
     },
     {
-        name: "React",
-        level: 80,
+        name: "Git",
+        level: 90,
         icon: "⚛️"
     },
     {
-        name: "Node.js",
-        level: 75,
+        name: "Prompt Engineering",
+        level: 85,
         icon: "🟢"
     },
     {
-        name: "Git",
+        name: "Maven",
         level: 85,
         icon: "📦"
     },
     {
-        name: "Responsive Design",
+        name: "SQL",
         level: 90,
         icon: "📱"
     },
     {
-        name: "UI/UX",
+        name: "JavaScript",
         level: 80,
         icon: "✨"
     }
