@@ -12,7 +12,7 @@ window.projects = [
     },
     {
         title: 'SoldaIg',
-        description: 'Web para una empresa de soldadura, con catálogo de servicios y formulario de contacto.',
+        description: 'Web para una empresa de soldaje, con catálogo de servicios y formulario de contacto.',
         icon: '⚡',
         image: 'images/proyectos/soldaig.jpg',
         tags: ['Astro', 'Markdown', 'Render'],
@@ -68,13 +68,9 @@ function renderProjects() {
             ? `<h3><a href="${project.demo}" target="_blank" style="color: inherit; text-decoration: none;">${project.title}</a></h3>`
             : `<h3>${project.title}</h3>`;
         
-        const linkHTML = isAvailable
-            ? `<a href="${project.demo}" target="_blank" class="project-link">Ver proyecto →</a>` 
-            : `<span class="project-link" style="color: var(--secondary-color); cursor: default;">Próximamente</span>`;
-        
         const tagsHTML = project.tags.map(tag => `<span class="tech-tag">${tag}</span>`).join('');
         
-        return `<div class="project-card">${imageWrapperHTML}${titleHTML}<p>${project.description}</p><div class="technologies">${tagsHTML}</div>${linkHTML}</div>`;
+        return `<div class="project-card">${imageWrapperHTML}${titleHTML}<p>${project.description}</p><div class="technologies">${tagsHTML}</div></div>`;
     }).join('');
     
     container.innerHTML = projectsHTML;
