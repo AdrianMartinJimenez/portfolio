@@ -71,6 +71,8 @@ body.dark-theme .navbar {
     padding: 0.5rem 1rem;
     border-radius: 0.75rem;
     transition: var(--transition);
+    text-decoration: none;
+    display: inline-block;
 }
 
 .nav-brand:hover {
