@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adrián Martín Jiménez — Senior Java Developer con +8 años en gestión de siniestros. Spring Boot, IA documental y automatización de claims.">
+    <meta name="description" id="meta-description" content="Adrián Martín Jiménez — Senior Java Developer con +8 años en gestión de siniestros. Spring Boot, IA documental y automatización de claims.">
     <title>Adrián Martín Jiménez | Senior Java · Siniestros & IA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,13 +41,13 @@
     <section id="inicio" class="hero">
         <div class="container">
             <div class="hero-content">
-                <span class="hero-badge fade-in">9 años · Sector asegurador · AXA</span>
+                <span class="hero-badge fade-in"><span data-years-format="stat"></span> años · Sector asegurador · AXA</span>
                 <h1 class="fade-in">
                     Hola, soy <span class="highlight">Adrián Martín Jiménez</span>
                 </h1>
                 <p class="subtitle fade-in">Senior Java Developer · Siniestros & IA Documental</p>
                 <p class="description fade-in">
-                    Mas de 8 años de experiencia en el sector asegurador con Java, Struts y PL/SQL en entornos enterprise.
+                    Más de <span data-years-format="number"></span> años de experiencia en el sector asegurador con Java, Struts y PL/SQL en entornos enterprise.
                     Especialista en dominio de siniestros con IA ya integrada en producción. En transición activa hacia
                     Spring Boot 3, arquitectura en capas y automatización documental con agentes de IA.
                 </p>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="hero-stats fade-in">
                     <div class="stat">
-                        <span class="stat-value">8+</span>
+                        <span class="stat-value" data-years-format="stat"></span>
                         <span class="stat-label">Años en seguros</span>
                     </div>
                     <div class="stat-divider"></div>
@@ -85,7 +85,7 @@
             <div class="about-content">
                 <div class="about-card about-text">
                     <p>
-                        Senior Java Developer con +8 años en el sector asegurador (Capgemini / AXA Seguros).
+                        Senior Java Developer con <span data-years-format="plus-years"></span> en el sector asegurador (Capgemini / AXA Seguros).
                         Conozco el ciclo completo de gestión de siniestros: análisis funcional y técnico,
                         desarrollo, puesta en producción y resolución de incidencias complejas en entornos Agile.
                     </p>
@@ -213,6 +213,7 @@
         </div>
     </footer>
 
+    <script src="js/years.js"></script>
     <script src="js/experience.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/skills.js"></script>
